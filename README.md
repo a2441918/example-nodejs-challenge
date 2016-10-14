@@ -8,6 +8,8 @@ This is an express.js application. Please complete the following steps to run th
 1. git clone this repository and this branch. 
 2. From the root of the code-challenge directory run: npm install 
 3. From the root of the code-challenge directory run: npm run 
+4. /listCommits -> Lists the recent commits in raw JSON format. 
+5. /authorCommits -> Lists all output as requested by the challenge. 
 
 ###How are the unit tests run? 
 
