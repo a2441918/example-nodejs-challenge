@@ -1,3 +1,19 @@
+##Junaid's Coding Challenge Submission for Skyfit##
+This submission is for the coding challenge listed below. 
+
+###How is the application run? 
+
+This is an express.js application. Please complete the following steps to run the app:
+
+1. git clone this repository and this branch. 
+2. From the root of the code-challenge directory run: npm install 
+3. From the root of the code-challenge directory run: npm run 
+
+###How are the unit tests run? 
+
+1. mocha /code-challenge/test/test.js 
+
+
 ## NodeJS Programming Task
 
 In order to be considered for the NodeJS position, you must complete the following steps. 

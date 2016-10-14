@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h5 Welcome to #{title}
+  p This is the general repository information as obtained from the Github API: 
+  p #{repo}
+  p The following is a list of the last 25 SHAs belonging to user 'trott' from the repository node/nodejs - formerly known as joyent/node. (Raw JSON for all recent commits can be found at the following location: /listAllCommits).
+  p These are SHAs ending with a letter: 
+  p #{nonNumberResponse}
+  p These are SHAs ending with a number. They have been colored light blue (#E6F1F6): 
+  p1 #{numberResponse}
+  p Unit tests can be run from the test directory using mocha: e.g mocha test.js. 
+
